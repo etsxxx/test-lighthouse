@@ -1,7 +1,7 @@
-export default {
+module.exports = {
   extends: "lighthouse:default",
   settings: {
-    formFactor: "mobile",
+    emulatedFormFactor: "mobile",
     throttling: {
       rttMs: 40,
       throughputKbps: 10 * 1024,
@@ -10,7 +10,6 @@ export default {
       downloadThroughputKbps: 0,
       uploadThroughputKbps: 0,
     },
-    onlyAudits: TARGET_METRICS,
     screenEmulation: {
       mobile: true,
       width: 375,
