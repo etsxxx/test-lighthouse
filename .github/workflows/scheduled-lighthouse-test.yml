@@ -15,5 +15,6 @@ jobs:
         with:
           uploadArtifacts: true
           temporaryPublicStorage: false
+          configPath: ./lighthouse-configs/smartphone/lighthouserc.yml
           urls: |
             https://handheld.tokyo/

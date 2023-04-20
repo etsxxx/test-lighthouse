@@ -1,0 +1,7 @@
+ci:
+  collect:
+    settings:
+      // Wait up to 90s for the page to load
+      "maxWaitForLoad": 90000,
+      "throttlingMethod": "devtools",
+      "configPath": "lighthouse-configs/smartphone/config.js"
